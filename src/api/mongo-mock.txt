@@ -1,0 +1,173 @@
+db.categories.drop();
+db.categories.deleteMany({});
+db.categories.insertMany([	
+	{
+		"imgId" : "1",
+		"name" : "Festival",
+		"url" : "/assets/images/category-1.jpg"
+	},
+	{
+		"imgId" : "2",
+		"name" : "Drinks & Food",
+		"url" : "/assets/images/category-2.jpg"
+	},
+	{
+		"imgId" : "3",
+		"name" : "Nature",
+		"url" : "/assets/images/category-3.jpg"
+	},
+	{
+		"imgId" : "4",
+		"name" : "Fun",
+		"url" : "/assets/images/category-4.jpg"
+	}
+]);
+
+db.contactDetails.drop();
+db.contactDetails.deleteMany({});
+db.contactDetails.insertMany([
+	{
+		"company" : "Cognizant Technology Solutions",
+		"address" : "Elcot SEZ",
+		"city" : "Sholinganallur",
+		"landMark" : "Near Toll Gate (Perumpakkam Road)"
+	}
+]);
+
+db.imgCategory.drop();
+db.imgCategory.deleteMany({});
+db.imgCategory.insertMany([
+	{	
+		"categoryId": "1", 
+		"imgId"  : "img1",
+		"url" : "/assets/images/img-category-1.jpg"
+	},
+	{
+		"categoryId": "1", 
+		"imgId"  : "img2",
+		"url" : "/assets/images/img-category-2.jpg"
+	},
+	{
+		"categoryId": "1", 
+		"imgId"  : "img3",
+		"url" : "/assets/images/img-category-3.jpg"
+	},
+	{
+		"categoryId": "2", 
+		"imgId"  : "img1",
+		"url" : "/assets/images/img-category-4.jpg"
+	},
+	{
+		"categoryId": "2", 
+		"imgId"  : "img2",
+		"url" : "/assets/images/img-category-5.jpg"
+	},
+	{
+		"categoryId": "3", 
+		"imgId"  : "img1",
+		"url" : "/assets/images/img-category-6.jpg"
+	},
+	{
+		"categoryId": "3", 
+		"imgId"  : "img2",
+		"url" : "/assets/images/img-category-7.jpg"
+	},
+	{
+		"categoryId": "4", 
+		"imgId"  : "img1",
+		"url" : "/assets/images/img-category-8.jpg"
+	}
+]);
+
+db.ImageDetails.drop();
+db.ImageDetails.deleteMany({});
+db.ImageDetails.insertMany([
+	{
+		"imgId": "img1", 
+		"detail_id" : "1",
+		"title": "img",
+		"name": "Children",
+		"type" : "PNG",
+		"dimensions": "1024*768",
+		"resolutions" : "96*96",
+		"price" : "123.00",
+		"tag" : "LifeStyle"
+	},
+	{
+		"imgId": "img1", 
+		"detail_id" : "2",
+		"title": "img",
+		"name": "Teenagers",
+		"type" : "JPEG",
+		"dimensions": "758*366",
+		"resolutions" : "32*32",
+		"price" : "145.00",
+		"tag" : "LifeStyle"
+	},
+	{
+		"imgId": "img2", 
+		"detail_id" : "3",
+		"title": "img",
+		"name": "Adults",
+		"type" : "PNG",
+		"dimensions": "1200*1800",
+		"resolutions" : "64*64",
+		"price" : "132.00",
+		"tag" : "LifeStyle"
+	},
+	{
+		"imgId": "img1", 
+		"detail_id" : "4",
+		"title": "img",
+		"name": "Couples",
+		"type" : "JPEG",
+		"dimensions": "1200*1800",
+		"resolutions" : "64*64",
+		"price" : "123.00",
+		"tag" : "LifeStyle"
+	},
+	{
+		"imgId": "img2", 
+		"detail_id" : "5",
+		"title": "img",
+		"name": "Home",
+		"type" : "JPEG",
+		"dimensions": "768*316",
+		"resolutions" : "32*32",
+		"price" : "170.00",
+		"tag" : "Food & Drinks"
+	},
+	{
+		"imgId": "img1", 
+		"detail_id" : "6",
+		"title": "img",
+		"name": "Kitchen",
+		"type" : "PNG",
+		"dimensions": "1200*800",
+		"resolutions" : "72*72",
+		"price" : "155.00",
+		"tag" : "Food & Drinks"
+	},
+	{
+		"imgId": "img3", 
+		"detail_id" : "7",
+		"title": "img",
+		"name": "Restaurent",
+		"type" : "PNG",
+		"dimensions": "1100*968",
+		"resolutions" : "96*96",
+		"price" : "340.00",
+		"tag" : "Food & Drinks"
+	},
+	{
+		"imgId": "img3", 
+		"detail_id" : "8",
+		"title": "img",
+		"name": "Dessert",
+		"type" : "JPEG",
+		"dimensions": "1024*768",
+		"resolutions" : "64*64",
+		"price" : "250.00",
+		"tag" : "Food & Drinks"
+	}
+]);
