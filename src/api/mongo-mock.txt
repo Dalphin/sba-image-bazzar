@@ -79,9 +79,9 @@ db.imgCategory.insertMany([
 	}
 ]);
 
-db.ImageDetails.drop();
-db.ImageDetails.deleteMany({});
-db.ImageDetails.insertMany([
+db.imageDetails.drop();
+db.imageDetails.deleteMany({});
+db.imageDetails.insertMany([
 	{
 		"imgId": "img1", 
 		"detail_id" : "1",
