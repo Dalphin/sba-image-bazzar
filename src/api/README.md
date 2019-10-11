@@ -5,7 +5,7 @@ Install the latest version of mongoDB in your local system (https://www.mongodb.
 
 ## Configure backend api server
 
-Navigate to src/api folder, then run the command one by one.
+Open the prompt or terminal inside the "src/api" folder, then run the command one by one.
 1. `npm init -y`
 2. `npm install -g --save express body-parser cors mongoose`
 3. `npm install -g nodemon --save-dev`
